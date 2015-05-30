@@ -1,0 +1,21 @@
+{
+  "name": "ObjectCache",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soutar/ObjectCache"
+  },
+  "keywords": [
+    "cache",
+    "objectcache",
+    "memcached",
+    "memcache"
+  ],
+  "main": "src/ObjectCache.js",
+  "author": "John Soutar (@soutar)",
+  "license": "WTFPL",
+  "dependencies": {
+    "moment": "^2.10.3"
+  }
+}
