@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "babel": "^5.4.7",
+    "istanbul": "^0.3.14",
     "mocha": "^2.2.5"
   }
 }
