@@ -16,7 +16,8 @@
   "author": "John Soutar (@soutar)",
   "license": "WTFPL",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require ./babel.js"  
+    "test": "./node_modules/mocha/bin/mocha --require ./babel.js",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --require ./babel.js"
   },
   "dependencies": {
     "moment": "^2.10.3"
