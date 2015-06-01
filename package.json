@@ -1,6 +1,6 @@
 {
   "name": "objectcache",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
   "repository": {
     "type": "git",
@@ -28,6 +28,11 @@
     "mocha": "^2.2.5"
   },
   "browserify": {
-    "transform": ["babelify", { "stage": "0"}]
+    "transform": [
+      "babelify",
+      {
+        "stage": "0"
+      }
+    ]
   }
 }
