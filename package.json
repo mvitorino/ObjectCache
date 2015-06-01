@@ -29,10 +29,9 @@
   },
   "browserify": {
     "transform": [
-      "babelify",
-      {
+      ["babelify", {
         "stage": "0"
-      }
+      }]
     ]
   }
 }
