@@ -4,7 +4,7 @@ import ObjectStoreDriver from './drivers/ObjectStoreDriver';
 class ObjectCache {
   defaultTtl = [15, 'minutes'];
 
-  constructor (driver = function () {}, config) {
+  constructor (driver, config) {
     if (!driver) {
       throw new Error('No driver provided');
     }

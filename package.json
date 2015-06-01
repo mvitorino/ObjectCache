@@ -15,7 +15,14 @@
   "main": "src/ObjectCache.js",
   "author": "John Soutar (@soutar)",
   "license": "WTFPL",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require ./babel.js"  
+  },
   "dependencies": {
     "moment": "^2.10.3"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "mocha": "^2.2.5"
   }
 }

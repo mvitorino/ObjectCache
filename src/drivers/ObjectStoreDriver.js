@@ -1,7 +1,9 @@
+import moment from 'moment';
 import ObjectStoreCacheObject from './ObjectStoreCacheObject';
 
 export default class ObjectStoreDriver {
   store = {};
+  storeObjectClass = ObjectStoreCacheObject;
 
   get (key) {
 
@@ -30,9 +32,14 @@ export default class ObjectStoreDriver {
     return result;
   }
 
+  setStoreObjectClass (storeObjectClass) {
+    this.storeObjectClass = storeObjectClass;
+    return true;
+  }
+
   set (key, value, ttl) {
     let expiry = this.time + ttl;
-    let object = new ObjectStoreCacheObject(value, expiry);
+    let object = new this.storeObjectClass(value, expiry);
 
     this.store[this.makeKey(key)] = object;
 
