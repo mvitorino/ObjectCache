@@ -1,4 +1,4 @@
-# ObjectCache for Javascript [![Build Status](https://travis-ci.org/Soutar/ObjectCache.svg?branch=master)](https://travis-ci.org/Soutar/ObjectCache)
+# ObjectCache for Javascript [![Build Status](https://travis-ci.org/soutar/ObjectCache.svg?branch=master)](https://travis-ci.org/soutar/ObjectCache)
 
 A library for storing objects with expiration dates in Javascript (ES6/7).
 
